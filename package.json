@@ -1,0 +1,27 @@
+{
+  "name": "skeleton-express-ejs",
+  "version": "0.0.0",
+  "description": "for quickly developing express apps with ejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"no test specified \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevindeland/skeleton-express-ejs.git"
+  },
+  "keywords": [
+    "express",
+    "ejs"
+  ],
+  "author": "Kevin DeLand <kmdeland@us.ibm.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevindeland/skeleton-express-ejs/issues"
+  },
+  "homepage": "https://github.com/kevindeland/skeleton-express-ejs",
+  "dependencies": {
+    "express": "^4.9.5",
+    "ejs": "^1.0.0"
+  }
+}
