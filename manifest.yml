@@ -1,0 +1,9 @@
+applications:
+- host: your_app_name_here 
+  disk: 1024M
+  name: your_app_name_here 
+  command: node app.js
+  path: .
+  domain: ciopaas1.innovate.ibm.com
+  mem: 128M
+  instances: 1

@@ -37,7 +37,15 @@ fs.readdirSync('./routes').forEach(function(file) {
     }
 });
 
+app.get('/test', function(req, res) {
+    
+    res.send('hi');
+    doSomeOtherThing();
+});
 
+function doSomeOtherThing() {
+    console.log('doin it');
+}
 
 var port = process.env.PORT || 3000;
 
